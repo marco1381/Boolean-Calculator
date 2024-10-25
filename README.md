@@ -5,7 +5,7 @@
 
 The calculator should be able to handle Boolean expressions with the input values `TRUE` and `FALSE`, together with the operators `AND` (`&`), `OR` (`|`), and `NOT` (`!`).
 
-The program should accept keyboard input and exit on the end-of-file character (CTRL+d).
+The program should accept keyboard input and exit on the end-of-file character (CTRL+D).
 
 ## Technical Specification:
 
@@ -21,7 +21,7 @@ The following are examples of valid input values:
 The following are all valid operators:
 - `&`, `|`, `!`.
 
-- The compiler should display a **generic error message** if it is unable to parse the input (the way it does in the tutorial on Bison).
+- The compiler should display a **generic error message** if it is unable to parse the input.
 - **Output** should simply be the answer to the expression: `TRUE` or `FALSE` (Note: The answers should only be one of these exact strings, in capital letters).
 
 ### Examples:
